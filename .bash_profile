@@ -10,4 +10,5 @@ PATH=/usr/local/scala/bin:$PATH
 export PATH=/usr/local/bin/:$PATH
 #export SPARK_HOME
 alias ll='ls -l'
+alias labCall='ssh pczb@labServer'
 source ~/.git-completion.bash

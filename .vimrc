@@ -37,7 +37,7 @@ inoremap jj <ESC>
 inoremap <leader>w <ESC>:w<CR>
 nnoremap <leader>w :w<CR> 
 inoremap <leader>f <C-x><C-f>
-inoremap <leader>p "+p
+inoremap <leader>p <ESC>"+p
 vmap <leader>y "+y
 
 if has("gui_running")

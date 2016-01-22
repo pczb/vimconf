@@ -1,5 +1,6 @@
 set nocompatible	" Use Vim defaults (much better!)
 filetype off
+set rtp+=~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'Valloric/YouCompleteMe'
@@ -50,3 +51,4 @@ endif
 " Don't wake up system with blinking cursor:
 " http://www.linuxpowertop.org/known.php
 let &guicursor = &guicursor . ",a:blinkon0"
+set t_Co=256

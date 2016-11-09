@@ -1,0 +1,18 @@
+# This is the default .slate file.
+# If no ~/.slate file exists this is the file that will be used.
+
+config defaultToCurrentScreen true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+
+alias hyper ctrl;shift;alt;cmd
+
+bind i:${hyper} focus 'IntelliJ IDEA'
+bind t:${hyper} focus 'iTerm2'
+bind left:${hyper} throw left
+bind right:${hyper} throw right
+bind left:cmd focus left
+bind right:cmd focus right
+
+# Window Hints
+bind esc:cmd hint

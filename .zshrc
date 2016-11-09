@@ -81,8 +81,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/tigerzhang/Library/Python/2.7/bin:$PATH"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home"
+alias gst='git status'
+alias gco='git checkout'
 #. /Users/tigerzhang/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
